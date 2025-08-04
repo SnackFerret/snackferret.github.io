@@ -21,7 +21,6 @@ theme:
 nav:
   - Home: index.md
   - QA Rig: qa-rig.md
-  - HoloNarrator Framework: holo-narrator.md
   - Lore Modules:
       - Ferret Lab: ferret-lab.md
       - Immersive Hooks: immersive-hooks.md
@@ -43,3 +42,4 @@ extra:
 
 plugins:
   - search
+
