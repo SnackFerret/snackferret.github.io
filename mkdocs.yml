@@ -1,5 +1,45 @@
 site_name: SnackFerret Dev
+site_url: https://dev.snackferret.studio/docs/
+repo_url: https://github.com/snackferret/snackferret.github.io
+repo_name: snackferret.github.io
+site_dir: site
+use_directory_urls: true
+
 theme:
   name: material
+  language: en
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.annotate
+    - content.tabs.link
+    - search.highlight
+    - header.autohide
+
 nav:
   - Home: index.md
+  - QA Rig: qa-rig.md
+  - HoloNarrator Framework: holo-narrator.md
+  - Lore Modules:
+      - Ferret Lab: ferret-lab.md
+      - Immersive Hooks: immersive-hooks.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/snackferret
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@SnackFerret
+
+plugins:
+  - search
