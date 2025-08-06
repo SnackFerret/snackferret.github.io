@@ -213,13 +213,14 @@
 
 .bg-dark {
     height: 70px;
+    background-color: #000000 !important;
 }
 
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
-    background-color: #212529!important;
+    background-color: #000000 !important;
     max-width: 100%;
     margin-top: 10px;
 }
@@ -229,7 +230,7 @@
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
-    background-color: #212529;
+    background-color: #000000;
 }
 
 .d-flex {
